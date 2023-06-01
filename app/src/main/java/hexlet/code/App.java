@@ -18,7 +18,7 @@ class App {
 
     @Parameters(index = "1", paramLabel = "filepath2", description = "path to second file")
     private String filepath2;
-    
+
     public static void main(String[] args) {
         int exitCode = new CommandLine(new App()).execute(args);
         System.exit(exitCode);
